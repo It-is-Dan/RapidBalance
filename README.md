@@ -1,4 +1,5 @@
-<h1 align="center" style="margin-bottom:-15px;">Final Year Project</h1>
+<h1 align="center" style="margin-bottom:-15px;">Final Year Project - Rapid Balance</h1>
+<p align="center" style="font-weight: bold">A Performance Analysis of Modern Routing Algorithms Used in Content Delivery.</p>
 
 # Example Configuration
 
