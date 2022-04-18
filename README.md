@@ -16,9 +16,9 @@ By default, the configuration is setup to use the RoundRobin algorithm, run on p
     <ul>
         <li>GO 1.17
         <li>Python 3.10.4</li>
-    <ul>
+    </ul>
 
-<h3>Running the balancer</h3>
+<h3>Running The Balancer</h3>
 
 <p>The easiest way to get up an running is by using VS Code, you will be able to run the "HTTP-Server" file and the software will run as intended.
 Should you wish to run the software in a command terminal, you will need to build the program with <code>go build</code> and run it with 
