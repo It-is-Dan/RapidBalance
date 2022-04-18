@@ -1,7 +1,11 @@
 <h1 align="center" style="margin-bottom:-15px;">Final Year Project - Rapid Balance</h1>
 <p align="center" style="font-weight: bold">A Performance Analysis of Modern Routing Algorithms Used in Content Delivery.</p>
 
-# Example Configuration
+<h2>Getting Started</h2>
+
+
+
+<h2>Example Configuration</h2>
 
 ```
 {
@@ -15,32 +19,7 @@
 }
 ```
 
-# Step 1 - Port Configuration:
-
-Locate the configuration file "config.json" included
-in the RapidBalance file.
-
-The first option is the port for the balancer to run on.
-You can chose a port of your choice.
-
-# Step 2 - Algorithm Configuration:
-
-The second option is the routing algorith. You can chose
-between two algorithms, round-robin and least-connection.
-
-These algorithms must be inputted as follows:
-
-"RoundRobin" OR "LeastConnection"
-
-# Step 3 - Server Configuration:
-
-Included in the code file are three flask server files.
-These servers can be used as the content nodes. 
-
-The flask servers are preconfigured to the following
-local IPs and ports.
-
-# Flask Servers
+<h2>Flask Servers</h2>
 ```
 Node 1: "http://127.0.0.1:5050"
 Node 2: "http://127.0.0.1:5051"
@@ -52,7 +31,7 @@ usable content serving nodes.
 
 The IPs for those nodes are below.
 
-# Hosted servers
+<h2>Hosted servers</h2>
 ```
 Node 1: "http://5.226.143.60"
 Node 2: "http://5.226.143.61"
