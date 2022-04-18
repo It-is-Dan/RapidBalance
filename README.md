@@ -1,6 +1,6 @@
 <h1 align="center" style="margin-bottom:-15px;">Final Year Project</h1>
 <p align="center" style="font-weight: bold">A Performance Analysis of Modern Routing Algorithms Used in Content Delivery.</p>
-<hr style="border:0.5px">
+<hr style="margin-bottom:0.5em">
 
 <h2>Project Overview</h2>
 <p>
