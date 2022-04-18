@@ -1,6 +1,6 @@
 <h1 align="center" style="margin-bottom:-15px;">Final Year Project</h1>
 <p align="center" style="font-weight: bold">A Performance Analysis of Modern Routing Algorithms Used in Content Delivery.</p>
-# 
+<br>
 <h2>Project Overview</h2>
 <p>
 RapidBalance is a software-defined load balancing system with two configurable algorithms, round-robin and least-connection.<br>
@@ -11,6 +11,12 @@ RapidBalance is a software-defined load balancing system with two configurable a
 <h2>Getting Started</h2>
 
 By default, the configuration is setup to use the RoundRobin algorithm, run on port 80 and route to the local flask servers. 
+
+
+<h3>Running the balancer<h3>
+
+    The easiest way to get up an running is by using VS Code, you will be able to run the "HTTP-Server" file and the software will run as intended.
+    Should you wish to run the software in a command terminal, you will need to build the program with ``go build`` and run it with ``go run server.go``.
 
 <h2>Example Configuration</h2>
 
