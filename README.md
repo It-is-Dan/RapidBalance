@@ -3,7 +3,7 @@
 
 <h2>Project Overview</h2>
 <p>
-RapidBalance is a software-defined load balancing software with two configurable algorithms, round-robin and least-connection.
+RapidBalance is a software-defined load balancing software with two configurable algorithms, round-robin and least-connection.<br>
     <b>PLEASE NOTE:</b> This software was created as part of a research project and as a result isnt ready for live production.
 </p>
 
