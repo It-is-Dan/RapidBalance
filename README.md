@@ -20,6 +20,7 @@
 ```
 
 <h2>Flask Servers</h2>
+
 ```
 Node 1: "http://127.0.0.1:5050"
 Node 2: "http://127.0.0.1:5051"
@@ -32,6 +33,7 @@ usable content serving nodes.
 The IPs for those nodes are below.
 
 <h2>Hosted servers</h2>
+
 ```
 Node 1: "http://5.226.143.60"
 Node 2: "http://5.226.143.61"
