@@ -1,0 +1,9 @@
+{
+    "PORT": "80",
+    "ALGORITHM": "RoundRobin",
+    "SERVERS": [
+        "http://5.226.143.60",
+        "http://5.226.143.61",
+        "http://5.226.143.62"
+    ]
+}
