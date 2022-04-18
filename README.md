@@ -10,7 +10,7 @@ RapidBalance is a software-defined load balancing system with two configurable a
 
 <h2>Getting Started</h2>
 
-
+By default, the configuration is setup to use the RoundRobin algorithm, run on port 80 and route to the local flask servers. 
 
 <h2>Example Configuration</h2>
 
@@ -28,7 +28,7 @@ RapidBalance is a software-defined load balancing system with two configurable a
 
 <h2>Flask Servers</h2>
 
-By default, the configuration file is set to use the three following local flask servers.
+By default, the configuration file is set to use these three following local flask servers.
 
 ```
 Node 1: "http://127.0.0.1:5050"
