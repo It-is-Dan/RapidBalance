@@ -1,6 +1,12 @@
 <h1 align="center" style="margin-bottom:-15px;">Final Year Project - Rapid Balance</h1>
 <p align="center" style="font-weight: bold">A Performance Analysis of Modern Routing Algorithms Used in Content Delivery.</p>
 
+<h2>Project Overview</h2>
+<p>
+RapidBalance is a software-defined load balancing software with two configurable algorithms, round-robin and least-connection.
+    <b>PLEASE NOTE:</b> This software was created as part of a research project and as a result isnt ready for live production.
+</p>
+
 <h2>Getting Started</h2>
 
 
