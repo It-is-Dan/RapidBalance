@@ -12,6 +12,11 @@ RapidBalance is a software-defined load balancing system with two configurable a
 
 By default, the configuration is setup to use the RoundRobin algorithm, run on port 80 and route to the local flask servers. 
 
+<h3>Requirements<h3>
+    <ul>
+        <li>GO 1.17
+        <li>Python 3.10.4</li>
+    <ul>
 
 <h3>Running the balancer</h3>
 
