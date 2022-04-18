@@ -38,11 +38,11 @@ The flask servers are preconfigured to the following
 local IPs and ports.
 
 # Flask Servers
-
+```
 Node 1: "http://127.0.0.1:5050"
 Node 2: "http://127.0.0.1:5051"
 Node 3: "http://127.0.0.1:5052"
-
+```
 If you would rather not use local servers for testing,
 three external servers running NGINX have been set up as
 usable content serving nodes. 
@@ -50,10 +50,10 @@ usable content serving nodes.
 The IPs for those nodes are below.
 
 # Hosted servers
-
+```
 Node 1: "http://5.226.143.60"
 Node 2: "http://5.226.143.61"
 Node 3: "http://5.226.143.62"
-
+```
 These nodes will remain active after the submission for use
 when marking.
