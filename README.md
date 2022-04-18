@@ -1,6 +1,5 @@
 <h1 align="center" style="margin-bottom:-15px;">Final Year Project</h1>
 <p align="center" style="font-weight: bold">A Performance Analysis of Modern Routing Algorithms Used in Content Delivery.</p>
-<hr style="margin-bottom:0.5em">
 
 <h2>Project Overview</h2>
 <p>
@@ -28,6 +27,8 @@ RapidBalance is a software-defined load balancing system with two configurable a
 ```
 
 <h2>Flask Servers</h2>
+
+By default, the configuration file is set to use the three following local flask servers.
 
 ```
 Node 1: "http://127.0.0.1:5050"
