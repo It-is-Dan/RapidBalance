@@ -1,3 +1,5 @@
+<h1 align="center" style="margin-bottom:-15px;">Final Year Project</h1>
+
 # Example Configuration
 
 ```
