@@ -60,7 +60,9 @@ func main() {
 	// #-----------------------------------------------------------------------#
 
 	// Link to page used to authenticate traffic simulator.
-	http.Handle("/loaderio-d5ffdb9edd0a9d365b84452391c9d86e/", http.StripPrefix("/loaderio-d5ffdb9edd0a9d365b84452391c9d86e/", http.FileServer(http.Dir("./static/"))))
+	http.Handle("/loaderio-d5ffdb9edd0a9d365b84452391c9d86e/", 
+		    http.StripPrefix("/loaderio-d5ffdb9edd0a9d365b84452391c9d86e/", 
+				     http.FileServer(http.Dir("./static/"))))
 	// Routes traffic to the handler functions.
 	if platformSettings.ALGORITHM == "RoundRobin" {
 		http.HandleFunc("/", roundRobinHandler)
