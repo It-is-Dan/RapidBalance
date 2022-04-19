@@ -23,7 +23,6 @@ By default, the configuration is setup to use the RoundRobin algorithm, run on p
 <p>The easiest way to get up an running is by using VS Code, you will be able to run the "HTTP-server" file and the software will run as intended.
 Should you wish to run the software in a command terminal, you will need to build the program with <code>go build</code> and run it with 
 <code>go run file_name.go</code>.</p>
-<br>
 <p>If you are using the flask servers, you will need to run <code>pip3 install flask</code> to install the dependencies.</p>
 <p>The round-robin algorithm works as intended, but the least-connection algorithm doesnt acuratly remove idle connections.</p>
 
