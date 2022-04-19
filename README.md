@@ -25,6 +25,7 @@ Should you wish to run the software in a command terminal, you will need to buil
 <code>go run file_name.go</code>.</p>
 <br>
 <p>If you are using the flask servers, you will need to run <code>pip3 install flask</code> to install the dependencies.</p>
+<p>The round-robin algorithm works as intended, but the least-connection algorithm doesnt acuratly remove idle connections.</p>
 
 <h2>Example Configuration</h2>
 
