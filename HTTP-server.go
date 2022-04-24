@@ -36,6 +36,8 @@ func main() {
 	// #                            JSON Handling                              #
 	// #-----------------------------------------------------------------------#
 
+	// Reference used: https://www.sohamkamani.com/golang/json/
+	
 	// Load Configuration File.
 	jsonConfiguration, err := os.Open("config.json")
 	if err != nil {
@@ -59,6 +61,8 @@ func main() {
 	// #                             HTTP Server                               #
 	// #-----------------------------------------------------------------------#
 
+	// Reference used: https://pkg.go.dev/net/http 
+	
 	// Link to page used to authenticate traffic simulator.
 	http.Handle("/loaderio-d5ffdb9edd0a9d365b84452391c9d86e/", 
 		    http.StripPrefix("/loaderio-d5ffdb9edd0a9d365b84452391c9d86e/", 
@@ -105,6 +109,8 @@ func roundRobinHandler(res http.ResponseWriter, r *http.Request) {
 // #-----------------------------------------------------------------------#
 // #                     Connection State Listener                         #
 // #-----------------------------------------------------------------------#
+
+// Reference used: https://stackoverflow.com/questions/51317122/how-to-get-number-of-idle-and-active-connections-in-go
 
 func connStateListener(c net.Conn, cs http.ConnState) {
 	if platformSettings.ALGORITHM == "LeastConnection" {
