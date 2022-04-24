@@ -4,6 +4,8 @@ import (
 	"sync"
 )
 
+// Reference used: https://levelup.gitconnected.com/implementation-of-thread-safe-dictionary-data-structure-in-golang-2bcb235fd9e4 
+
 // #-----------------------------------------------------------------------#
 // #                          Least Connections                            #
 // #-----------------------------------------------------------------------#
